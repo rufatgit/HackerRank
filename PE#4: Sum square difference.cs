@@ -12,15 +12,7 @@ internal class Program
             BigInteger n = Int64.Parse(Console.ReadLine());
             Console.WriteLine(BigInteger.Abs(Sum_sq_numbers(n) - Sq_sum_numbers(n)));
 
-
         }
-
-
-
-
-
-
-
     }
 
     public static BigInteger Sum_sq_numbers(BigInteger n)
